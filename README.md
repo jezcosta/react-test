@@ -1,46 +1,25 @@
-# Getting Started with Create React App
+# React Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esse projeto tem como objetivo servir como base para um teste de ReactJS.
 
-## Available Scripts
+## Objetivo do Teste
 
-In the project directory, you can run:
+Baixe esse projeto e desenvolva uma tela que integre alguma API pública (ver exemplos no próximo tópico) e liste os itens em uma tabela.
 
-### `npm start`
+### Informações
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Necessário utilizar Typescript
+- Necessário fazer alguma estilização na tabela (bordas, cores, etc)
+- Para a requisão da API você pode usar o client (com Axios) que já está pronto hoje em `src > client > index.ts` ou criar o seu próprio.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Exemplo de APIs públicas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+API | Descrição | Exemplo |
+|---|---|---|---|---|
+| [Pokéapi](https://pokeapi.co) | Informações sobre Pokémons | GET https://pokeapi.co/api/v2/pokemon trás uma lista de pokémons
+| [Spaceflight News](https://api.spaceflightnewsapi.net/v4/docs/#/articles/articles_list) | Notícias sobre voos espaciais | GET https://api.spaceflightnewsapi.net/v4/articles trás uma lista de notícias
+| [Fruityvice](https://www.fruityvice.com/) | Informações sobre frutas | GET https://www.fruityvice.com/api/fruit/all trás uma lista de frutas
+| [Fipe API](https://deividfortuna.github.io/fipe/) | Informações sobre carros | GET https://parallelum.com.br/fipe/api/v1/carros/marcas trás uma lista de marcas de carro
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+*Você pode encontrar mais exemplos de APIs públicas pelo link [aqui](https://github.com/public-apis/public-apis/blob/master/README.md)
