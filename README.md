@@ -16,10 +16,10 @@ Baixe esse projeto e desenvolva uma tela que integre alguma API pública (ver ex
 ## Exemplo de APIs públicas
 
 API | Descrição | Exemplo |
-|---|---|---|---|---|
-| [Pokéapi](https://pokeapi.co) | Informações sobre Pokémons | GET https://pokeapi.co/api/v2/pokemon trás uma lista de pokémons
-| [Spaceflight News](https://api.spaceflightnewsapi.net/v4/docs/#/articles/articles_list) | Notícias sobre voos espaciais | GET https://api.spaceflightnewsapi.net/v4/articles trás uma lista de notícias
-| [Fruityvice](https://www.fruityvice.com/) | Informações sobre frutas | GET https://www.fruityvice.com/api/fruit/all trás uma lista de frutas
-| [Fipe API](https://deividfortuna.github.io/fipe/) | Informações sobre carros | GET https://parallelum.com.br/fipe/api/v1/carros/marcas trás uma lista de marcas de carro
+|---|---|---|
+| [Pokéapi](https://pokeapi.co) | Informações sobre Pokémons | GET https://pokeapi.co/api/v2/pokemon trás uma lista de pokémons|
+| [Spaceflight News](https://api.spaceflightnewsapi.net/v4/docs/#/articles/articles_list) | Notícias sobre voos espaciais | GET https://api.spaceflightnewsapi.net/v4/articles trás uma lista de notícias|
+| [Fruityvice](https://www.fruityvice.com/) | Informações sobre frutas | GET https://www.fruityvice.com/api/fruit/all trás uma lista de frutas|
+| [Fipe API](https://deividfortuna.github.io/fipe/) | Informações sobre carros | GET https://parallelum.com.br/fipe/api/v1/carros/marcas trás uma lista de marcas de carro|
 
 *Você pode encontrar mais exemplos de APIs públicas pelo link [aqui](https://github.com/public-apis/public-apis/blob/master/README.md)
