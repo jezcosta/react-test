@@ -1,0 +1,40 @@
+.card-pokemon {
+  border-radius: 0.5rem;
+  border: solid 1px #fff;
+  color: #fff;
+  padding: 10px;
+  background: #333;
+}
+
+.card-pokemon p {
+  color: #fff;
+}
+
+.card-pokemon span {
+  color: #fff;
+}
+
+.card-pokemon img {
+  max-width: 100%
+}
+
+.number {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.characteristics {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#title {
+  color: #c5c5c5;
+}
+
+#name-pokemon {
+  font-size: 16px;
+  font-weight: bold;
+}
